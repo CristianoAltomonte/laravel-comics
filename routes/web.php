@@ -230,7 +230,7 @@ Route::get('/', function () {
     ];
 
     return view('home', compact('comics'));
-});
+})->name('home');
 
 Route::get('/comics', function () {
 
@@ -449,4 +449,4 @@ Route::get('/comics', function () {
     ];
 
     return view('comics', compact('comics'));
-});
+})->name('index.comic');

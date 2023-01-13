@@ -1,7 +1,7 @@
 {{-- Con questa direttiva blade estendiamo il layout della pagina --}}
 @extends('layouts.app')
 
-@section('page-title', 'comics')
+@section('page-title', 'Dc Comics-Home')
 
 @section('main-content')
 
